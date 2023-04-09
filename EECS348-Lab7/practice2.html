@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="functions.js"></script>
+        <style>
+            #paragraph {
+                font-size: 20px;
+                border-style: solid;
+                border-width: 5px;
+                position: relative;
+                width: 60%;
+                height: 90%;
+                display: inline-block;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Practice 2 - CSS Font Control</h1>
+        <div id="paragraph"> 
+            Create a web page that has a paragraph with some dummy text. <br>Near the paragraph, have a
+            text field to accept the following values: <br>red/green/blue values for the paragraph and <br>
+            red/green/blue values for the border. <br>You also need to control the width of the border 
+        </div>
+        <script type="text/javascript" src="functions.js"></script>
+            <!-- TEXT COLOR -->
+            <!-- RED -->
+            <br><br><label>Text Color Red: </label>
+            <input type="text" id="textcolorredinput" placeholder="0-255" value""">
+            <!-- BLUE -->
+            <label >Text Color Blue: </label>
+            <input type="text" id="textcolorblueinput" placeholder="0-255" value""">
+            <!-- GREEN -->
+            <label>Text Color Green: </label>
+            <input type="text" id="textcolorgreeninput" placeholder="0-255" value"""><br><br>
+            
+            <!-- BORDER COLOR -->
+            <!-- RED -->
+            <label>Border Color Red: </label>
+            <input type="text" id="bordercolorredinput" placeholder="0-255" value="">
+            <!-- BLUE -->
+            <label>Border Color Blue: </label>
+            <input type="text" id="bordercolorblueinput" placeholder="0-255" value="">
+            <!-- GREEN -->
+            <label>Border Color Green: </label>
+            <input type="text" id="bordercolorgreeninput" placeholder="0-255" value=""><br><br>
+            <!-- BORDER WIDTH -->
+            <label>Border Width: </label>
+            <input type="text" id="borderwidthinput" placeholder="px" value=""><br><br>
+            
+            <!-- SUBMIT BUTTON -->
+            <button onclick="apply_changes()">Apply Changes</button> <br>
+
+    </body>
+</html>
